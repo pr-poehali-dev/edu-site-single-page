@@ -6,7 +6,8 @@ const Program = () => {
     {
       level: "A1-A2",
       title: "Начинающий",
-      description: "Основы языка, базовая лексика",
+      description:
+        "Освойте основы: алфавит, произношение, базовые фразы для повседневного общения. Научитесь представляться, делать покупки, спрашивать дорогу. Изучите времена Present и Past Simple, базовую лексику (800+ слов).",
       duration: "2-3 месяца",
       lessons: "24 урока",
       icon: "Seedling",
@@ -16,7 +17,8 @@ const Program = () => {
     {
       level: "B1-B2",
       title: "Средний",
-      description: "Разговорная речь, грамматика",
+      description:
+        "Уверенное общение на бытовые и профессиональные темы. Понимание фильмов, книг, новостей. Изучение сложной грамматики, условных предложений, времён группы Perfect. Лексический запас 2000+ слов.",
       duration: "3-4 месяца",
       lessons: "36 уроков",
       icon: "TreePine",
@@ -26,7 +28,8 @@ const Program = () => {
     {
       level: "C1-C2",
       title: "Продвинутый",
-      description: "Свободное владение языком",
+      description:
+        "Свободное владение языком на уровне носителя. Участие в дискуссиях, презентациях, деловых переговорах. Понимание тонкостей языка, идиом, культурных особенностей. Подготовка к международным экзаменам.",
       duration: "4-6 месяцев",
       lessons: "48 уроков",
       icon: "Crown",
@@ -55,8 +58,9 @@ const Program = () => {
             Программа <span className="text-gradient">обучения</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Структурированные курсы от новичка до эксперта. Каждый уровень
-            адаптирован под твои потребности
+            Авторская методика с персональным подходом. Живое общение с
+            носителями языка, интерактивные уроки и практические задания.
+            Гарантируем результат уже через месяц обучения!
           </p>
         </div>
 
@@ -106,9 +110,13 @@ const Program = () => {
 
         {/* Languages */}
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-xl">
-          <h3 className="text-3xl font-montserrat font-bold text-center mb-8">
-            Доступные языки
+          <h3 className="text-3xl font-montserrat font-bold text-center mb-4">
+            Изучай любой из 6 языков
           </h3>
+          <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+            Каждый язык преподают квалифицированные педагоги - носители языка.
+            Погружение в культуру и живое общение с первого урока.
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {languages.map((lang, index) => (
               <div key={index} className="relative">
@@ -133,10 +141,11 @@ const Program = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-primary rounded-3xl p-8 lg:p-12 text-white">
             <h3 className="text-3xl lg:text-4xl font-montserrat font-bold mb-4">
-              Готов начать своё языковое путешествие?
+              Начни говорить уже сегодня!
             </h3>
             <p className="text-xl mb-8 opacity-90">
-              Первый урок абсолютно бесплатно! Никаких обязательств.
+              Персональная программа, гибкий график, результат через 30 дней.
+              Первый урок бесплатно - убедись в эффективности нашей методики!
             </p>
             <Button
               size="lg"
