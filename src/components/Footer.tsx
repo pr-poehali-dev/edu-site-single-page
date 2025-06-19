@@ -110,6 +110,7 @@ const Footer = () => {
             </div>
 
             <div className="flex items-center gap-6 text-sm text-gray-400">
+              <span>Автор: Абдуллаева Е.Р.</span>
               <span>Сделано с ❤️ в России</span>
               <div className="flex items-center gap-2">
                 <Icon name="Shield" size={16} />
